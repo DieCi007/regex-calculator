@@ -7,9 +7,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-class RegexServiceTest {
+class RegExServiceTest {
 
-    private final RegexService service = new RegexService();
+    private final RegExService service = new RegExService();
 
     @Test
     void calcRegex_shouldWork_withTaxCode() {
